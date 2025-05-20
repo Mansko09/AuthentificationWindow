@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulaire d'authentification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Authentification</h1>
+
+    <div class="input-section">
+      <label for="login">Login</label>
+      <input type="text" id="login" placeholder="saisir votre login">
+      <label for="Mdp">Mot de passe</label>
+      <input type="password" id="Mdp" placeholder="saisir votre mot de passe" maxlength="20" required>
+      <br>
+      <button onClick="envoyerInfo()">Envoyer</button>
+      <button onClick="effacerInfo()">Effacer</button>
+    </div>
+    <div>
+        <p>
+        </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

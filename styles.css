@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+    border-radius: 20px;
+    border: 15px;
+    background-color: coral;
+}
