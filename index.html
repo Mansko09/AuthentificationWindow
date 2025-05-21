@@ -2,29 +2,38 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Formulaire d'authentification</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+<div class="container">
+  <div class="auth-box">
     <h1>📝 Authentification</h1>
+    <label for="login">Login</label>
+    <input type="text" id="login" placeholder="saisir votre login" required>
 
-    <div class="input-section">
-      <label for="login">Login</label>
-      <input type="text" id="login" placeholder="saisir votre login">
-      <label for="Mdp">Mot de passe</label>
-      <input type="password" id="Mdp" placeholder="saisir votre mot de passe" maxlength="20" required>
-      <input type="checkbox" id="showPassword"> Afficher le mot de passe
+    <label for="mdp">Mot de passe</label>
+    <input type="password" id="mdp" placeholder="saisir votre mot de passe" maxlength="20">
+    <label><input type="checkbox" id="showPassword"> Afficher le mot de passe</label>
 
-      <br>
+    <br>
+    <br>
+
+    <div class="buttons">
       <button onClick="envoyerInfo()">Envoyer</button>
       <button onClick="effacerInfo()">Effacer</button>
     </div>
-    <div>
-        <p>
-        </p>
-    </div>
+
+    <p></p>
   </div>
+
+  <div class="auth-box">
+    <h4>Connexion....</h4>
+    <p></p>
+  </div>
+</div>
+
 
   <script src="script.js"></script>
 </body>
