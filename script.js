@@ -8,6 +8,11 @@ function envoyerInfo(){
     }
 
 }
+document.getElementById("showPassword").addEventListener("change", function () {
+    const mdp = document.getElementById("Mdp");
+    mdp.type = this.checked ? "text" : "password";
+});
+
 
 function effacerInfo(){
     const el=document.querySelector("p");
